@@ -1,0 +1,36 @@
+h1{
+    background-color: #A62D2D;
+    color: whitesmoke;
+    text-align: center;
+
+}
+section{
+    width: 200px;
+    height: 200px;
+    background-color: #BF9969;
+
+}
+
+div{
+    width: 50%;
+    height: 50%;
+    background-color: teal;
+    text-align: center;
+    border: solid 5px red;
+    /* margin: 0 25% 25% 25%; */
+    align-content: bottom;
+}
+
+article{
+    font-size: 80px;
+}
+
+p{
+    font-size: 0.5em;
+    padding: 0px;
+}
+
+button{
+    border-radius: 2em;
+    font-size: 0.8em;
+}   

@@ -1,0 +1,54 @@
+#a {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  display: none;
+}
+
+#rgba {
+  width: 20rem;
+  height: 20em;
+  background-color: rgba(255, 255, 255, 0.466);
+}
+
+div {
+  background-color: #f25ca2;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #021859;
+  display: inline-block;
+  margin: 10px;
+}
+
+#static #middle {
+  background-color: #0433bf;
+}
+
+#relative #middle {
+  background-color: red;
+  position: relative;
+  top: 10px;
+  left: 10rem;
+}
+#absolute {
+  position: relative;
+}
+
+#absolute #middle {
+  background-color: seagreen;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+#fixed #middle {
+  position: fixed;
+  top: 0px;
+  right: 10px;
+}
+
+#sticky #middle {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 600px;
+}
