@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/app.css">
+    <title>Welcome to, <%= name%>
+    </title>
+</head>
+
+<body>
+    <h1>Browing the <%=name%> subreddit</h1>
+    <h2>
+        <%= description %>
+    </h2>
+    <h3>
+        <%= subscribers %> Total Subscribers
+    </h3>
+    <hr />
+    <center>
+        <h2>Posts</h2>
+    </center>
+    <% for(let post of posts) { %>
+        <p>
+            <%= post.title %> - <b>
+                    <%= post.author %>
+                </b>
+        </p>
+        <% if(post.img){ %>
+            <img src="<%= post.img %> " alt="" />
+            <% } %>
+                <% }%>
+</body>
+
+</html>

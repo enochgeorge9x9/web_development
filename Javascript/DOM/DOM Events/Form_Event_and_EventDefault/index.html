@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Events and EventDefault</title>
+</head>
+
+<body>
+    <h1>Form Elements</h1>
+    <form action='/dogs' id="tweetForm">
+        <input type="text" placeholder="Username" name="username">
+        <input type="text" placeholder="Tweet" name="tweet">
+        <button>Post Tweet</button>
+    </form>
+
+    <h2>Tweets: </h2>
+    <ul id="tweets">
+        <li>Click me to delete</li>
+    </ul>
+
+    <p>Click on the Tweets to remove the existing or newly added tweets</p>
+    <p>We are using the ul to target specfic li to delete the tweet, this process is called <b>Event Delegation</b></p>
+    <script src='app.js'></script>
+
+
+</body>
+
+</html>

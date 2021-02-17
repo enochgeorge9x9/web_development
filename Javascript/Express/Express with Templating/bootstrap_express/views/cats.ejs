@@ -1,0 +1,15 @@
+<%- include('partials/head')%>
+
+    <body>
+        <%- include('partials/navbar')%>
+        <h1>Lists of Cats using for loop in ejs</h1>
+        <ul>
+            <% for(let cat of cats){ %>
+                <li>
+                    <%= cat %>
+                </li>
+                <% } %>
+        </ul>
+    </body>
+
+    </html>
